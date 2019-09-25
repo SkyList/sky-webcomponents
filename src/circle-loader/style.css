@@ -1,0 +1,19 @@
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
+
+.spinner{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 16px solid transparent; 
+    border-right: 16px solid red;
+    animation: spin 2000ms infinite linear;
+}
